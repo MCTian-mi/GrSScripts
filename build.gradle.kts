@@ -9,6 +9,11 @@ plugins {
 group = "scripts"
 version = "1.0-SNAPSHOT"
 
+tasks.withType<JavaCompile>().configureEach {
+    options.encoding = "UTF-8"
+    sourceCompatibility = JavaVersion.VERSION_1_8.toString()
+}
+
 repositories {
     mavenCentral()
     exclusiveContent {
