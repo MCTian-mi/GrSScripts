@@ -12,7 +12,7 @@
     
     For Linux / OSX users:
     ```shell
-    ln -s "src/main/groovy" "../Supersymmetry/groovy"
+    ln -s "<path_to_your_idea_project_folder>/Supersymmetry/groovy" "src/main/groovy"
     ```
 3) Build the project, or simply run the command below:
 
