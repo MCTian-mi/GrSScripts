@@ -60,11 +60,11 @@ minecraft {
 dependencies {
     implementation("org.apache.groovy:groovy:4.0.14")
 
-    compileOnly("gregtech:gregtech:2.8.10-beta") { isTransitive = false }
-    compileOnly("gregicality:GregicalityMultiblocks:1.2.11") { isTransitive = false }
-    compileOnly("com.cleanroommc:groovyscript:1.2.4") { isTransitive = false }
+    api("gregtech:gregtech:2.8.10-beta") { isTransitive = false }
+    api("gregicality:GregicalityMultiblocks:1.2.11") { isTransitive = false }
+    api("com.cleanroommc:groovyscript:1.2.4") { isTransitive = false }
 
-    compileOnly(rfg.deobf("curse.maven:susycore-846224:6527834"))
-    compileOnly(rfg.deobf("curse.maven:supercritical-1185871:6493239"))
-    compileOnly(rfg.deobf("curse.maven:gregtech-food-option-477021:6472136"))
+    api(rfg.deobf("curse.maven:susycore-846224:6527834"))
+    api(rfg.deobf("curse.maven:supercritical-1185871:6493239"))
+    api(rfg.deobf("curse.maven:gregtech-food-option-477021:6472136"))
 }
