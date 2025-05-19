@@ -67,4 +67,13 @@ dependencies {
     api(rfg.deobf("curse.maven:susycore-846224:6527834"))
     api(rfg.deobf("curse.maven:supercritical-1185871:6493239"))
     api(rfg.deobf("curse.maven:gregtech-food-option-477021:6472136"))
+
+    api(rfg.deobf("curse.maven:techguns-244201:2958103"))
+    api(rfg.deobf("curse.maven:ae2-extended-life-570458:6302098"))
+    api(rfg.deobf("curse.maven:fluidlogged-api-485654:4564413"))
+    api(rfg.deobf("curse.maven:universal-mod-core-371784:4975229"))
+    api(rfg.deobf("curse.maven:track-api-282613:2825260"))
+    api(rfg.deobf("curse.maven:immersive-railroading-277736:4970105"))
+    api(rfg.deobf("curse.maven:athenaeum-284350:4633750"))
+    api(rfg.deobf("curse.maven:pyrotech-306676:6253355"))
 }
