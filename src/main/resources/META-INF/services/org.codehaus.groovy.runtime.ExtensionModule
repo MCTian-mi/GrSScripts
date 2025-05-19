@@ -1,0 +1,17 @@
+moduleName=grs-module
+moduleVersion=1.0
+extensionClasses=\
+  gregtech.integration.groovy.MaterialExpansion,\
+  gregtech.integration.groovy.GroovyExpansions,\
+  gregtech.integration.groovy.GroovyMaterialBuilderExpansion,\
+  gregtech.integration.groovy.MaterialPropertyExpansion,\
+  com.cleanroommc.groovyscript.compat.mods.astralsorcery.crystal.CrystalItemStackExpansion,\
+  com.cleanroommc.groovyscript.compat.mods.thaumcraft.warp.WarpItemStackExpansion,\
+  com.cleanroommc.groovyscript.compat.mods.thaumcraft.aspect.AspectItemStackExpansion,\
+  com.cleanroommc.groovyscript.compat.vanilla.CommandSenderExpansion,\
+  com.cleanroommc.groovyscript.compat.vanilla.ItemStackExpansion
+staticExtensionClasses=\
+  expansion.GrSExpansion,\
+  expansion.GTExpansion
+
+
