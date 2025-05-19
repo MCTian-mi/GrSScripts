@@ -9,9 +9,10 @@ extensionClasses=\
   com.cleanroommc.groovyscript.compat.mods.thaumcraft.warp.WarpItemStackExpansion,\
   com.cleanroommc.groovyscript.compat.mods.thaumcraft.aspect.AspectItemStackExpansion,\
   com.cleanroommc.groovyscript.compat.vanilla.CommandSenderExpansion,\
-  com.cleanroommc.groovyscript.compat.vanilla.ItemStackExpansion
+  com.cleanroommc.groovyscript.compat.vanilla.ItemStackExpansion,\
+  expansion.GrSExpansion
 staticExtensionClasses=\
-  expansion.GrSExpansion,\
-  expansion.GTExpansion
+  expansion.GrSStaticExpansion,\
+  expansion.GTStaticExpansion
 
 

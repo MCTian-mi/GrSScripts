@@ -10,25 +10,25 @@ import net.minecraft.item.ItemStack;
 ///
 /// The methods here are all dummy ones.
 @SuppressWarnings("unused")
-public class GTExpansion {
+public class GTStaticExpansion {
 
-    public static Material material(Object dummy, String rl) {
+    public static Material material(final Object dummy, String rl) {
         return null;
     }
 
-    public static RecipeMap<?> recipemap(Object dummy, String name) {
+    public static RecipeMap<?> recipemap(final Object dummy, String name) {
         return null;
     }
 
-    public static ItemStack metaitem(Object dummy, String rl) {
+    public static ItemStack metaitem(final Object dummy, String rl) {
         return null;
     }
 
-    public static OrePrefix oreprefix(Object dummy, String name) {
+    public static OrePrefix oreprefix(final Object dummy, String name) {
         return null;
     }
 
-    public static Element element(Object dummy, String name) {
+    public static Element element(final Object dummy, String name) {
         return null;
     }
 }
